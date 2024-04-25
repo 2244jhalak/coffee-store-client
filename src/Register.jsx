@@ -40,7 +40,7 @@ const Register = () => {
         console.log(result.user);
         const createdAt=result.user.metadata.creationTime;
         const user={email,createdAt};
-        fetch('http://localhost:5000/users',{
+        fetch(' https://coffee-store-server-73dfvxed9-stdjhalakgmailcoms-projects.vercel.app/users',{
             method: "POST",
             headers: {
                    "Content-Type": "application/json",
